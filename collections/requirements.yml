@@ -1,5 +1,5 @@
 ---
 collections:
-  - name: git@github.com:zilux/tools-collection.git
+  - name: git@github.com:zilux/tools-collections.git
     type: git
 # ansible-galaxy collection install -r collections/requirements.yml
