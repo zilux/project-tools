@@ -1,9 +1,13 @@
 ---
 - name: Basehost ( baseline a host )
-  hosts: all
+  hosts: all 
   gather_facts: true
-  become: true
+  become: false
   vars:
+    delegate_host: mail.qrom.nl
+    email_to:
+      - zijlmansh@gmail.com
+
     must_mail: false
     run_tasks:
       - { run: 'reachable.yml', header: 'reachable', outcome_in: ['setup_ok'] }
