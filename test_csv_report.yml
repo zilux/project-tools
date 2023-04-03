@@ -1,6 +1,6 @@
 ---
 - name: Basehost ( baseline a host )
-  hosts: all 
+  hosts: all
   gather_facts: true
   become: false
   vars:
