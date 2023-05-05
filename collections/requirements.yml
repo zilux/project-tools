@@ -3,4 +3,5 @@ collections:
   #- name: git@github.com:zilux/tools-collections.git
   # type: git
   - name: community.general
+  - name: zilux.tools
 # ansible-galaxy collection install -r collections/requirements.yml
